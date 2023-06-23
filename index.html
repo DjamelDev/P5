@@ -10,12 +10,17 @@
 	<meta name="twitter:title" content="Nina Carducci" />
 	<meta name=”twitter:description” content="Photographe passionnée, disponible sur Bordeaux pour vos shooting photo." />
 	<meta name=”twitter:image” content="https://djameldev.github.io/P5/assets/images/nina.webp" />
-	<!-- Open Graph meta (Facebook, Linkedin) -->
-	<meta property="og:title" content="Nina Carducci" />
-	<meta property="og:type" content="siteweb" />
-	<meta property="og:url" content="https://djameldev.github.io/P5/" />
-	<meta property="og:image" content="https://djameldev.github.io/P5/assets/images/nina.webp" />
-	<meta property="og:description" content="Photographe passionnée, disponible sur Bordeaux pour vos shooting photo." />
+	<!-- Open Graph meta (Facebook, Instagram) -->
+	<meta property="og:title" content="Nina Carducci : Photographe professionnel à Bordeaux"/>
+	<meta property="og:type" content="siteweb"/>
+	<meta property="og:locale" content="fr_FR"/>
+	<meta property="og:url" content="https://djameldev.github.io/P5/"/>
+	<meta property="og:image" 
+		content="https://djameldev.github.io/P5/assets/images/nina.webp"/>
+	<meta property="og:description" 
+		content="Photographe passionnée, disponible sur Bordeaux pour vos shooting photo."/>
+	<meta name="instagram:title" content="Nina Carducci - Photographe profesionnel à Bordeaux : Shooting, retouche et album photo personnalisé pour immortaliser vos moments de bonheur ! ">
+	<meta name="instagram:site" content="@ninacarducci.photo">	
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
 	<link rel="stylesheet" href="./assets/style.min.css">
@@ -172,9 +177,13 @@
 	<script src="./assets/maugallery.min.js"></script>
 	<script src="./assets/scripts.js"></script>
 	<script type="application/ld+json">
-		"@context": "http://schema.org",
+	{
+		"@context": "https://schema.org",
 		"@type": "ProfessionalService",
 		"name": "Nina Carducci",
+		"image": "https://djameldev.github.io/P5/assets/images/nina.webp",
+		"url": "https://djameldev.github.io/P5/",
+		"telephone": "+33556677889",
 		"address": {
 			"@type": "PostalAddress",
 			"streetAddress": "68 avenue Alsace-Lorraine",
@@ -182,10 +191,8 @@
 			"addressRegion": "Gironde",
 			"postalCode": "33200",
 			"addressCountry": "FR"
-		},
-		"url": "https://djameldev.github.io/P5/",
-		"telephone": "+33556677889",
-		"openingHoursSpecification": [
+		},		
+		"openingHoursSpecification": {
 			{
 				"@type": "OpeningHoursSpecification",
 				"dayOfWeek": [
@@ -198,7 +205,7 @@
 				"opens": "10:00",
 				"closes": "19:00"
 			}
-		]
+	}
 	</script>
 </body>	
 </html>
